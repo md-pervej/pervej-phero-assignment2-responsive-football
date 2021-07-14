@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+*{
+    box-sizing:border-box;
+}
 body{
     margin:0;
     padding:0;
@@ -68,7 +70,6 @@ body{
     width:330px;
     height:474px;
     padding:15px;
-  
  }
 .player  .player-image img{
      width:300px;
@@ -90,10 +91,13 @@ body{
   /*--------------- Highlights Section -------------- */
  .highlights{
      display: flex;
+     grid-column-gap:25px;
+   
 
  }
  .hilights-detail{
    padding-left: 182px;
+   margin-top:150px;
     
 }
 .hilights-title{
@@ -108,12 +112,14 @@ body{
     font-weight:400;
     line-height:28px;
     color:#6C6C6C;
+    margin-top:10px;
 }
 .highlights-view{
+    margin-top:165px;
     margin-right:156px;
 }
 .highlights-view img{
-    width:100%;
+    width:80%;
 }
  /*--------------- Footer Style -------------- */
 
@@ -125,10 +131,10 @@ body{
     margin-top:118px;
 }
  li{
-     list-style-type: none;
-     display:inline-block;
-     margin-right:15px;
-    font-size:50px;
+    list-style-type: none;
+    display:inline-block;
+    margin-right:20px;
+    font-size:25px;
  }
  .copyright{
     font-family: 'Poppins', sans-serif;
