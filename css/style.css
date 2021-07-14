@@ -36,10 +36,10 @@ body{
     text-decoration: none;
     padding:10px 40px;
     background-color: #E02C6D;
-    
     font-weight:700;
     color:white;
 }
+
 .fa-arrow-right.btn-arrow{
     margin-left:5px;
 }
@@ -49,9 +49,10 @@ body{
 }
 .header-right img{
     width:100%;
+    
    
-
 }
+
  /*--------------- players style-------------- */
  .container{
      margin-top:70px;
